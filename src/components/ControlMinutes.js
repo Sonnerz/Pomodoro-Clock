@@ -7,11 +7,11 @@ const ControlMinutes = props => {
       <div style={{ textTransform: 'capitalize' }}
         id={props.type + "-label"}>{props.type} Length</div>
 
-
       <div className="length-control">
 
         <div className="arrow-button">
           <button
+            className={props.sessionRunning ? "disabled" : null}
             onClick={(e) => props.onIncrement(e)}
             id={props.type + "-increment"}
             disabled={props.sessionRunning && !props.paused}>
@@ -23,6 +23,7 @@ const ControlMinutes = props => {
 
         <div className="arrow-button">
           <button
+            className={props.sessionRunning ? "disabled" : null}
             onClick={(e) => props.onDecrement(e)}
             id={props.type + "-decrement"}
             disabled={props.sessionRunning && !props.paused}>

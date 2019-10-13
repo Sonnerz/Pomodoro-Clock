@@ -101,6 +101,10 @@ button:focus {
   outline: 0;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 #timer-component {
   margin: 0 auto;
   text-align: center;
@@ -180,6 +184,7 @@ button:focus {
 #break-decrement i:hover {
   color: red;
 }
+
 
 
 @media (min-width: 576px) {
