@@ -12,7 +12,7 @@ body {
 }
 
 #root {
-  background: linear-gradient(rgba(255, 16, 16, 0.692), rgba(252, 214, 3, 0.788)), url("/tomato.png") no-repeat;
+  background: linear-gradient(rgba(255, 16, 16, 0.692), rgba(252, 214, 3, 0.788)), url("assets/tomato.png") no-repeat;
   background-attachment: fixed;
   background-position: bottom right;
   background-size: 55%;

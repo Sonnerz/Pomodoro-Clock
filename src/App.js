@@ -188,23 +188,26 @@ class App extends Component {
   render() {
     return (
       <div id="wrapper">
-        <section class="container-social">
-          <div class="text-right">
-            <ul class="social-list">
+        <section className="container-social">
+          <div className="text-right">
+            <ul className="social-list">
               <li>
                 <a href="https://www.linkedin.com/in/sonyacooley/" title="linkedin" target="blank"><i
-                  class="fa fa-linkedin"></i></a>
+                  className="fa fa-linkedin"></i></a>
               </li>
               <li>
-                <a href="https://github.com/Sonnerz" title="github" target="blank"><i class="fa fa-github-square"></i></a>
+                <a href="https://github.com/Sonnerz" title="github" target="blank"><i className="fa fa-github-square"></i></a>
               </li>
               <li>
                 <a href="https://www.freecodecamp.org/sonnerz" title="free code camp" target="blank"><i
-                  class="fa fa-free-code-camp"></i></a>
+                  className="fa fa-free-code-camp"></i></a>
               </li>
               <li>
-                <a class="nav-link text-light" href="mailto:sonya.cooley@mail.com" target="_blank" title="email me"><i
-                  class="fa fa-envelope-square"></i></a>
+                <a href="https://sonnerz.github.io" title="portfolio" target="blank"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a className="nav-link text-light" rel="noopener noreferrer" href="mailto:sonya.cooley@mail.com" target="_blank" title="email me"><i
+                  className="fa fa-envelope-square"></i></a>
               </li>
             </ul>
           </div>
